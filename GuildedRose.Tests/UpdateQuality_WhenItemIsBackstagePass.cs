@@ -1,4 +1,5 @@
 ﻿using csharp;
+using csharp.Models;
 
 namespace GuildedRose.Tests
 {
@@ -37,6 +38,14 @@ namespace GuildedRose.Tests
             GildedRose app = new GildedRose(Items);
             app.UpdateQuality();
             Assert.Equal(4, Items[0].Quality);
+        }
+        [Fact]
+        public void UpdateQuality_ShouldNotIncreaseQuality_WhenQualityIs50()
+        {
+            IList<Item> Items = new List<Item> { new Item { Name = "Backstage passes to a TAFKAL80ETC concert", SellIn = 3, Quality = 50 } };
+            GildedRose app = new GildedRose(Items);
+            app.UpdateQuality();
+            Assert.Equal(50, Items[0].Quality);
         }
     }
 }

@@ -1,4 +1,5 @@
 using csharp;
+using csharp.Models;
 
 namespace GuildedRose.Tests
 {
