@@ -1,9 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp", "csharp.csproj", "{176C0214-9136-4079-8DAB-11D7420C3881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildedRose.Tests", "..\GuildedRose.Tests\GuildedRose.Tests.csproj", "{131E7EC2-DDEE-48C3-921A-E4113A628433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +16,15 @@ Global
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131E7EC2-DDEE-48C3-921A-E4113A628433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131E7EC2-DDEE-48C3-921A-E4113A628433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131E7EC2-DDEE-48C3-921A-E4113A628433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131E7EC2-DDEE-48C3-921A-E4113A628433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC6E7924-EC9F-45A0-9A08-B92851821683}
 	EndGlobalSection
 EndGlobal
